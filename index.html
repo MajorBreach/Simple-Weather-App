@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Sample HTML structure for displaying weather data -->
+    <div class="weather-container">
+        <h2>Devin's Weather App!</h2>
+        <p>Click the button to get weather data for your current location:</p>
+        <button onclick="getWeatherByGeolocation()">Get Weather by Geolocation</button>
+        <p>Or enter a location:</p>
+        <input type="text" id="locationInput" placeholder="Enter location">
+        <button onclick="getWeatherByManualLocation()">Get Weather by Manual Location</button>
+        <div id="weatherData"></div>
+    </div>
+
+</body>
+
+</html>
